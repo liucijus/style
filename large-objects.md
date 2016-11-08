@@ -5,6 +5,13 @@ val foo = Foo(Bar(baz = Varoom(
   prop3 = "val3),
   faz = Seq("one", "two")))
 ```
+```scala
+operations.query(contactById, Map(
+  "site_id" -> getBytes(instanceId),
+  "contact_id" -> getBytes(contactId)
+), ContactMapper)
+```
+
 **BETTER** Structure by logical groups
 ```scala
 val foo = Foo(
