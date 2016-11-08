@@ -1,17 +1,17 @@
-[BAD] Broken logical group:
+**BAD** Broken logical group:
 ```java
 enum State {
   READ, WRITE,
   PAUSE, STOP
 }
 ```
-[GOOD] Consistent logical group on the same line
+**GOOD** Consistent logical group on the same line
 ```java
 enum State {
   READ, WRITE, PAUSE, STOP
 }
 ```
-[GOOD]
+**GOOD**
 Consistently broken per logical item in the group
 ```java
 enum State {
