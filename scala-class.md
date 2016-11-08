@@ -30,3 +30,10 @@ case class Activity(
   payload: String)
 
 ```
+**BAD** Logical group split after arbitrary member
+```scala
+case class Activity(
+  contact: Contact, created: Instant,
+  payload: String
+)
+```
