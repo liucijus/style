@@ -7,7 +7,7 @@ val foo = Foo(Bar(baz = Varoom(
 ```
 ```scala
 operations.query(contactById, Map(
-  "site_id" -> getBytes(instanceId),
+  "site_id" -> getBytes(siteId),
   "contact_id" -> getBytes(contactId)
 ), ContactMapper)
 ```
