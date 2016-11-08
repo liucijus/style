@@ -8,7 +8,7 @@ case class Activity(contact: Contact,
 ```scala
 case class Activity(contact: Contact, created: Instant, payload: String)
 ```
-*GOOD** Fields on separate line 
+**GOOD** Fields on separate line 
 ```scala
 case class Activity(
   contact: Contact, created: Instant, payload: String
