@@ -1,4 +1,4 @@
-**BAD** hard to spot the structure
+**BAD** Hard to spot the structure
 ```scala
 val foo = Foo(Bar(baz = Varoom(
   prop1 = "val", prop2 = "val2",
@@ -14,7 +14,7 @@ val foo = Foo(
   )
 )
 ```
-**GOOD** Flatten by extrating groups to vals
+**GOOD** Flatten by extracting groups to vals
 ```scala
 val baz = Varoom(prop1 = "val1", prop2 = "val2", prop3 = "val3")
 val faz = Seq("one", "two")
