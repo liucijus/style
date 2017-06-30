@@ -1,4 +1,4 @@
-**BAD** Broken logical group:
+**BAD** Broken logical group
 ```java
 enum State {
   READ, WRITE,
